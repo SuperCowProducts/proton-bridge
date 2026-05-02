@@ -47,8 +47,16 @@ make build
     * for `windows`, the binary will have the file extension `.exe` (e.g `proton-bridge.exe`)
     * for `darwin`, the application will be created with name of the project directory (e.g `proton-bridge.app`)
 
+### Arm64
+
+```bash
+make build-nogui
+./bridge --cli
+```
+    
 #### Build Bridge without GUI
 * If you need to build bridge without Qt dependencies, you can do so by running
+
 
 ```bash
 make build-nogui
