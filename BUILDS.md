@@ -28,6 +28,13 @@ Also, before you start build **on Windows**, please unset the `MSYSTEM` variable
 export MSYSTEM=
 ```
 
+### Install dependencies
+
+E.g. `dnf`:
+```
+dnf install -y libsecret-devel libfido2-devel libcbor-devel
+```
+
 ### Build Bridge
 * in project root run
 
