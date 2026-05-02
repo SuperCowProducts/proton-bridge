@@ -53,7 +53,9 @@ make build
 make build-nogui
 ./bridge --cli
 ```
-    
+
+Alternatively, @mk1337 has Dockerized the process (https://github.com/mk1337/protonmail-bridge-docker-arm64).
+
 #### Build Bridge without GUI
 * If you need to build bridge without Qt dependencies, you can do so by running
 
